@@ -155,7 +155,6 @@
 \newcommand\programming[1]{ 
 	\renewcommand{\programming}{
 		\begin{tikzpicture}
-        	\node [above right] at (0, 4) {$0 \: LOC \: \arrow{3.2} \: 5000 \: LOC$};
 			\foreach [count=\i] \x/\y in {#1}{
 				\draw[fill=maingray,maingray] (0,\i) rectangle (6,\i+0.4);
 				\draw[fill=white,mainblue](0,\i) rectangle (\y,\i+0.4);
@@ -241,9 +240,9 @@
 
     %------------------------------------------------
     \vspace{3mm}
-    \profilesection{Componentes}{1.2cm}
+    \profilesection{Visión General}{1.2cm}
     
-    {\large \textbf{}}
+    {\large \textbf{Aspectos esenciales}}
 
 	\skills
         
@@ -251,12 +250,12 @@
         
         \vspace{3mm}
        
-	 {\large \textbf{Programming}} 
+	 {\large \textbf{Componentes}} 
 
 		 \programming
          
         \vspace{3mm}
-        \profilesection{Education}{3cm} 
+        \profilesection{Integrantes}{2cm} 
         
         \education
       
