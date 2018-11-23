@@ -12,6 +12,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+
 %----------------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
@@ -31,7 +32,7 @@
 }
 
 % Programming skill bars
-\programming{{Software / 1.8}, {Hardware / 1.2}, {Servicios en la nube / 3}}
+\programming{{Software (30\%) / 1.8}, {Hardware (20\% / 1.2}, {Servicios en la nube (50\%) / 3}}
 
 % Projects text
 \education{
@@ -59,7 +60,7 @@ Universidad Surcolombiana \\
 \cvgithub{Legacier}
 \cvnumberphone{(+57) 310 771 8993} % Phone number
 \cvsite{iotransport.herokuapp.com} % Personal website
-\cvmail{iotransport@gmail.com} % Email address
+\cvmail{contact.iotransport@gmail.com} % Email address
 
 %----------------------------------------------------------------------------------------
 
@@ -71,67 +72,22 @@ Universidad Surcolombiana \\
 %	 EXPERIENCE
 %----------------------------------------------------------------------------------------
 
-\section{Experience}
+\section{Qué es IoTransport}
 
 \begin{twenty} % Environment for a list with descriptions
 \twentyitem
-    	{April 2017 -}
-		{Present}
-        {Machine Learning Engineer}
-        {\href{http://www.bell.ca/}{Bell}}
+    	{}
+    	{}
+        {IoTransport es una iniciativa que busca mejorar el servicio de transporte público tradicional a nivel nacional e incentivar el uso de la bicicleta, por medio de una estrategia que consta de tres pilares.}
+        {{}}
         {}
         {\begin{itemize}
-        \item Focused on developing machine learning models, production deployment, testing, scaling
-        \item Projects: SMS spam detection, Robocall detection 
-        
-        Tools: Kafka, Flume, Spark, Hive, Solr, Jupyter Lab, Kubernetes, Docker, GitLab CI / CD
-        
-        Awards: Merit Gold (3x), Merit Platinum (2x)
-        \item Helped pioneer automated deployments of data pipelines using CI / CD, enabling faster and more portable deployments
-        \item Presented several talks on Machine Learning and Big Data at university hackathons and Bell internal conferences
-        \item Conducted interviews for junior and senior data engineering roles
+        \item Prototipo basado en hardware de bajo costo, que permite a cada vehículo suministrar información en tiempo real sobre la velocidad promedio, cantidad de pasajeros, consumo de combustible, pagos por medio de NFC y el tiempo estimado de llegada por cada punto de parada la ciudad. \\
+        \item Plataforma para la supervisión y control de flota en tiempo real. Permite a las empresas de transporte tener estadísticas precisas acerca de la eficacia con la que se está prestando el servicio de transporte público y realizar seguimiento a los conductores para reducir accidentes de tránsito debido a exceso de velocidad, conducción temeraria, entre otros factores que pueden reducir la experiencia del usuario. \\
+        \item Aplicación móvil que brinda al usuario información sobre tiempos de viaje, rutas y puntos de parada. Facilita el desplazamiento en el interior de la ciudad, tanto para ciudadanos locales, como para turistas e integra pago electrónico por medio de saldo digital, permitiendo al usuario realizar pagos sin contacto usando un chip NFC, adherido a su teléfono móvil.
         \end{itemize}}
         \\
-	\twentyitem
-    	{Sep 2015 -}
-		{May 2016}
-        {Co-founder \& Full Stack Developer}
-        {\href{http://www.localxchange.ca/}{LocalXChange Inc.}}
-        {}
-        {
-        {\begin{itemize}
-        \item In a team of 2, raised \$8,000 in funding from The Hub incubator at the University of Guelph, to develop a hyperlocal content platform, aimed at delivering local news and events to local users in realtime
-        \item In a team of 3, built hybrid mobile \& web apps with Ionic, Angular.js and MongoDB, surpassing 1,000 users within a month since launch
-        \item Met with the Mayor of Guelph and University of Guelph officials to discuss how the app can help boost Guelph Tourism 
-    \end{itemize}}
-        }
-    \\   
-    \twentyitem
-   		{Sep 2015 -}
-		{Dec 2016}
-        {Graduate Teaching Assistant}
-        {\href{http://www.uoguelph.ca}{University of Guelph}}
-        {}
-        {
-        {\begin{itemize}
-        \item TA for CIS*2430 (OOP), CIS*4150 (Software Reliability \& Testing) and CIS*3530 (Database Systems \& Concepts) courses
-        \item Delivered several lectures for CIS*3530 when professor was away at a conference
-    \end{itemize}}
-        }
-     \\
-     \twentyitem
-   		{Dec 2013 -}
-		{Apr 2015}
-        {Test Automation Engineer}
-        {\href{http://www.synechron.com/}{Synechron}}
-        {}
-        {
-        \begin{itemize}
-        \item Primarily developed test automation libraries using Java and C\#, scripts and CI / CD pipelines
-        \item Lead development of a Keyword Driven \& Behavior Driven test framework for \href{https://www.microsoft.com/en-ca/dynamics/crm.aspx}{Microsoft Dynamics CRM}. Earned monetary award \& client appreciation.
-        \item Demonstrated that rewriting an in-house test framework for \href{https://www.microsoft.com/en-ca/dynamics/erp-ax-overview.aspx}{Microsoft Dynamics AX}, using an open source library (White) instead of a proprietary one (Coded UI), would help the team save \$4K annually by downgrading Microsoft Visual Studio
-    \end{itemize}
-    	}
+
         
 	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
 \end{twenty}
@@ -139,25 +95,72 @@ Universidad Surcolombiana \\
 %----------------------------------------------------------------------------------------
 %	 RESEARCH
 %----------------------------------------------------------------------------------------
-\section{Research}
+\section{Visión General}
 \begin{twenty}
 	\twentyitem
-    	{2015 - 2017}
+    	{}
 		{}
-        {MSc. Candidate, Graduate Research Assistant}
-        {\href{http://www.uoguelph.ca/}{University of Guelph}}
+        {}
+        {}
         {}
         {
-       	\textbf{Thesis}: Data Integration from Multiple Historical Sources to Study Canadian Casualties of WWI
-        {\begin{itemize}
-        \item Proposed a stepwise deterministic method to integrate datasets without labeled data. The method performs comparably with a method that incorporates a Support Vector Machine
-        \item Prepared a longitudinal dataset to enable comprehensive analyses about WWI Canadian society and military, seeding further research
-        \item \textbf{Tools}: R, Python, scikit-learn, pandas \vspace{2mm}
-		\end{itemize}}
+   	    Según cifras del DANE, durante el segundo trimestre del presente año, el transporte urbano de pasajeros en las áreas de cobertura cuenta en promedio con 34148 vehículos en servicio por mes1, que corresponde al 64,9\% de todo el parque automotor. La cantidad de pasajeros que se movilizaron se encuentra alrededor de 417 millones1.\\ \\
+   	    {En la actualidad, existe una amplia variedad de soluciones disponibles en el mercado para el conteo de pasajeros y para verificar el estado del tráfico como \textbf{Moovit y Registel} que están implementadas en el SITP de \textbf{Bogotá, Cali y Medellín}. Sin embargo, IoTransport tiene un enfoque distinto, puesto que pretende solventar los principales problemas que conllevan las tecnologías existentes en ciudades donde no existe sistema integrado, pues hasta el momento, en el transporte urbano tradicional no se garantiza que se estén cumpliendo los tiempos de cada ruta en todas las ocasiones, ni que la cantidad de pasajeros en un vehículo está por debajo del máximo permitido.} \\ \\
+        {Inicialmente, se pretende implementar la solución en la ciudad de Neiva como prueba piloto, en convenio con las cinco empresas que prestan el servicio con un parque automotor de 711 vehículos2, las cuales son, \textbf{COOMOTOR}, \textbf{COOTRANSHUILA LTDA}, \textbf{FLOTA HUILA S.A.}, \textbf{AUTOBUSES S.A.} y \textbf{COOTRANSNEIVA.} \\ \\
+        {Esta información sobre el tráfico se proporcionará a Google mediante su programa de partners de \textbf{Google Transit}, facilitando al ciudadano planificar viajes en el transporte público urbano y mediante la tecnología de Google Maps empleada a nivel mundial, se ofrece información precisa sobre paradas, rutas, horarios y tarifas en ciudades pequeñas y medianas de todo el país, donde los embotellamientos son cada vez más frecuentes.} \\
+        }
         }
 \end{twenty}
 
-\section{Publications}
-L. Antonie, H. Gadgil, G. Grewal, and K. Inwood, “Historical Data Integration - A Study of WWI Canadian Soldiers,” in 2016 IEEE 16th International Conference on Data Mining Workshops (ICDMW), pp. 186-193, IEEE, 2016. \vspace{2mm}
+\newpage
+\makeprofile
+
+\section{Costo de Inversión}
+
+\begin{twenty}
+    \twentyitem
+    {}
+    {}
+    {}
+    {}
+    {}
+    {Para la implementación de toda la solución que contemple IoTransport se requieren las siguientes inversiones \\
+    
+    \textbf{Para las empresas prestadoras de servicio de transporte público} \\
+    \begin{itemize}
+        \item Dispositivo: Cada unidad incluye GPS + Transmisión GPRS + Sim CARD + Lector NFC + Caja robusta. \\
+        \item instalación de los dispositivos: Para los 711 vehículos de la ciudad de Neiva se requiere una inversión inicial de \$215 Millones de Pesos. \\
+        \item Acceso a la plataforma (Mensual): \$300mil + \$20mil por cada vehículo presente en la plataforma. Incluye 10Mb de datos mensual con empresa de telefonía para transmisión de información. \\ \\
+    \end{itemize}
+    
+    \textbf{Gastos internos de la empresa} \\
+    \begin{itemize}
+        \item Desarrollador: Salario de \$2.5 Millones / Mes \\
+        \item Diseño gráfico: Salario de \$1.2 Millones / Mes \\
+        \item 2 técnicos: Salario de \$781.242 / Mes \\
+        \item Dominio web empresarial: \$60mil / año \\
+        \item Servidor Privado Virtual (VPS): \$600 USD / año \\
+    \end{itemize}
+    
+    
+    
+    }
+    
+ 
+\end{twenty}
+
+
+\section{Fuentes}
+Boletín técnico. (2018). Encuesta de Transporte Urbano de Pasajeros ETUP.\\ https://www.dane.gov.co/files/investigaciones/boletines/transporte/bol\_transp \\ \_IItrim18.pdf \\
+
+Alcaldía de Neiva. (2018). Directorio parque automotor Neiva.\\ http://www.alcaldianeiva.gov.co/NuestraAlcaldia/Otros\%20Directorios/Forms/ \\ DispForm.aspx?ID=10 \\
+
+Moovit. (Actual). Aplicación de transporte público.\\ Sitio web 
+https://www.company.moovit.com/ \\
+
+Registel Colombia. (Actual)\\ Sitio web http://registelcolombia.com \\
+
+Google Transit Partners Program. (Actual) \\
+Sitio web http://maps.google.com/help/maps/mapcontent/transit/
 
 \end{document} 

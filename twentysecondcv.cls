@@ -240,7 +240,7 @@
 
     %------------------------------------------------
     \vspace{3mm}
-    \profilesection{Visión General}{1.2cm}
+    \profilesection{Esquema Global}{1.2cm}
     
     {\large \textbf{Aspectos esenciales}}
 
